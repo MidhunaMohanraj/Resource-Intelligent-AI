@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Playwright browsers (large — reinstall with: npx playwright install chromium)
+/backend/node_modules/.cache/ms-playwright/
+
+# Excel source files (internal company data — do not commit)
+*.xlsx
+*.xls
